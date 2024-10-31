@@ -1,0 +1,49 @@
+name: Bug in template
+description: Create a bug report to help us improve the template.
+labels:
+  - content
+body:
+  - type: markdown
+    attributes:
+      value: |
+          <div align="center">
+            <a href="https://github.com/mBlomsterberg/">
+              <picture>
+                <source srcset="https://raw.githubusercontent.com/mBlomsterberg/hanayama-repository-standard/main/logo_inv.png" media="(prefers-color-scheme: dark)">
+                <img src="https://raw.githubusercontent.com/mBlomsterberg/hanayama-repository-standard/main/logo.png" width="200" height="200">
+              </picture>
+            </a>
+            <h3 align="center">Appriciate contributions</h3>
+            <br />
+          </div>
+
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: This project has a Code of Conduct that all participants are expected to understand and follow.
+      options:
+        - label: I have read and agree to the GitHub Docs project's [Code of Conduct](https://github.com/github/docs/blob/main/.github/CODE_OF_CONDUCT.md)
+          required: true
+
+  - type: dropdown
+    id: version
+    attributes:
+      label: Version
+      description: What version of the template were you using?
+      options:
+        - 1.0.0
+        - 1.1.0
+        - 1.1.1 
+        - 1.1.2 (Latest)
+      default: 0
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: What is the issue?
+      description: Include a link, image or description of what you're trying to improve.
+    validations:
+      required: true
