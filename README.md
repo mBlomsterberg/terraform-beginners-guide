@@ -7,30 +7,26 @@
     </picture>
   </a>
 
-  <h3 align="center">hanayama-repository-standard</h3>
+  <h3 align="center">terraform-beginners-guide</h3>
 
   <p align="center">
-    Template for structure, convention and guidelines for Hanayama repositories in Github.
+    A small guide to Terraform for beginners.
     <br />
     <br />
-    <a href="https://github.com/mBlomsterberg/hanayama-repository-standard">Github Workflows</a>
+    <a href="https://github.com/mBlomsterberg/terraform-beginners-guide/blob/main/GUIDE.md">Guide</a>
     ·
-    <a href="https://github.com/mBlomsterberg/hanayama-repository-standard">Repository Configuration</a>
-    ·
-    <a href="https://github.com/mBlomsterberg/hanayama-repository-standard">Versioning</a>
+    <a href="https://github.com/mBlomsterberg/terraform-beginners-guide/blob/main/module">Module</a>
   </p>
   <br />
 </div>
 
 <div align="center">
-<img src="https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white"><img src="https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" /> <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white"> <img src="https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" /> <img src="https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white"> <img src="https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white"> <img src="https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white"> <img src="https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white"> <img src="https://img.shields.io/badge/drupal-%230678BE.svg?style=for-the-badge&logo=drupal&logoColor=white"> <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"> <img src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB"> <img src="https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white"> <img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white"> <img src="https://img.shields.io/badge/-cypress-%23E5E5E5?style=for-the-badge&logo=cypress&logoColor=058a5e">
-
-[Missing a badge?](https://github.com/Ileriayo/markdown-badges)
+<img src="https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white">
 </div>
 <br>
 
 # About
-This project description provides an overview for the reader to understand, and what function it has within Hanayama repositories. This repository creates a standard structure for development and collaboration between engineering teams. 
+Terraform beginners guide is a repository that provides a small guide to Terraform. The guide is intended to help beginners understand the basics of Terraform and how to use it to manage infrastructure as code.
 
 
 # Contact 
@@ -41,15 +37,9 @@ This project description provides an overview for the reader to understand, and 
 # Repository overview
 | `File`                        | `description` |
 | ------------------            | ------------- |
-| .github/ISSUE_TEMPLATE        | Configuring issue templates for your repository |
-| .github/pull_request_template.yml | Configuring default PR template for your repository    |
-| .github/dependabot.yml        | Customize how Dependabot maintains your repositories  |
-| CODE_OF_CONDUCT.md            | Defines standards for how to engage in a community    | 
-| CONTRIBUTING.md               | Contribution guidelines to your project's repository  |
-| SECURITY.md                   | To give people instructions on how to report security vulnerabilities | 
-| SUPPORT.md                    | Let people know about ways to get help with your project  |
-| CODEOWNERS                    | Define individuals or teams that are responsible for code in a repository |
-| LICENSE                       | A software license tells others what they can and can't do with your source code  |
+| module/        | Terraform files used for the guide. |
+| GUIDE.md       | The guide for the Terraform module. |
+
 
 
 # Contribution guidelines
